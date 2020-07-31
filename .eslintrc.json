@@ -31,7 +31,6 @@
             }
           ]
     },
-
     "settings": {
         "import/resolver": {
           "typescript": {}

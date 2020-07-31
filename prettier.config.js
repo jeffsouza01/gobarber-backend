@@ -1,5 +1,5 @@
 module.exports = {
     singleQuote: true,
-    trailingComma: AbortController,
+    trailingComma: 'all',
     arrowParens: 'avoid'
 }
