@@ -8,6 +8,10 @@ class AppointmentsRepository {
         this.appointment = [];
     }
 
+    public allAppointments(): Appointment[] {
+        return this.appointment;
+    }
+
     public create(provider: string, date: Date): Appointment {
         const appointment = new Appointment(provider, date);
 
