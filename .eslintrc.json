@@ -27,6 +27,9 @@
         "class-methods-use-this":"off",
         "camelcase": "off",
         "import/no-extraneous-dependencies": "off",
+        "@typescript-eslint/no-unused-vars": ["error", {
+            "argsIgnorePattern": "_"
+        }],
         "import/extensions": [
             "error",
             "ignorePackages",
