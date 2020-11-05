@@ -1,9 +1,9 @@
 import 'reflect-metadata';
 import { Router } from 'express';
 
-import appointmentRouter from './appointments.routes';
-import userRouter from './users.routes';
-import sessionsRouter from './sesions.routes';
+import sessionsRouter from '@modules/Users/infra/http/routes/sesions.routes';
+import appointmentRouter from '@modules/Appointments/infra/http/routes/appointments.routes';
+import userRouter from '@modules/Users/infra/http/routes/users.routes';
 
 const routes = Router();
 
